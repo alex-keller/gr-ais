@@ -2,8 +2,8 @@
 
 # Jinja variables help maintain the recipe by keeping repeated info in one place.
 # Fill in the github information or set the package name and URL manually!
-{% set github_user_or_org = "drmpeg" %}
-{% set github_repo = "gr-paint" %}
+{% set github_user_or_org = "alex-keller" %}
+{% set github_repo = "gr-ais" %}
 # A version number is REQUIRED for sanity. Tag and release if necessary!
 {% set version = "0.0.1a" %}
 # OOT module packages conventionally start with "gnuradio-" before the OOT name.
@@ -107,9 +107,7 @@ about:
   summary: Template package of a GNU Radio module.
   # The remaining entries in this section are optional, but recommended.
   description: >
-    Template package of a GNU Radio module. This example builds a package
-    for gr-paint. You can modify the files in the 'recipe' directory and
-    'conda-forge.yml' to build any OOT module!
+    Radioconda recipe for gr-ais using ryanvolz' template and bkerler's fork.
   doc_url: https://github.com/{{ github_user_or_org }}/{{ github_repo }}
   dev_url: https://github.com/{{ github_user_or_org }}/{{ github_repo }}
 
@@ -119,3 +117,4 @@ extra:
     # Always check with the people listed below if they are OK becoming maintainers of the recipe. (There will be spam!)
     - LisaSimpson
     - LandoCalrissian
+    - alex-keller
